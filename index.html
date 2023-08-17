@@ -3,22 +3,33 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Foxibox</title>
+<title>Foxibox - Die smarte Fotobox</title>
 <style>
   body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #333; /* Dunkelgrauer Hintergrund */
   }
   img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 70vh;
+    margin-bottom: 20px;
+  }
+  .email-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white; /* Weißer Text */
+    font-family: Calibri, sans-serif; /* Verwendung der Schriftart Calibri */
   }
 </style>
 </head>
 <body>
   <img src="foxibox.jpg" alt="Foxibox">
+  <a href="mailto:info@foxibox.de" class="email-link">Anfrage per E-Mail senden</a>
 </body>
 </html>
