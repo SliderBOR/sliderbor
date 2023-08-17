@@ -20,16 +20,51 @@
     margin-bottom: 20px;
   }
   .email-link {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 25px;
     font-weight: bold;
     color: white; /* Weißer Text */
+    font-family: Calibri, sans-serif; /* Verwendung der Schriftart Calibri */
+  }
+  .contact-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* Weißer Text */
+    font-family: Calibri, sans-serif; /* Verwendung der Schriftart Calibri */
+  }
+  .contact-text {
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 126, 163);
+    font-family: Calibri, sans-serif; /* Verwendung der Schriftart Calibri */
+  }
+  .slogan-text {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 126, 163);
+    font-family: Calibri, sans-serif; /* Verwendung der Schriftart Calibri */
+  }
+  .name-text {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 126, 163);
     font-family: Calibri, sans-serif; /* Verwendung der Schriftart Calibri */
   }
 </style>
 </head>
 <body>
   <img src="foxibox.png" alt="Foxibox">
-  <a href="mailto:info@foxibox.de" class="email-link">Anfrage per E-Mail senden</a>
+  <p style="line-height: 0%" class="slogan-text">Die smarte Fotobox</p>
+  <p class="name-text">Daniel Reinke</p>
+  <p class="contact-text">Anfrage per Telefon</p>
+  <a href="tel:+49 (0)176 - 84228539" class="contact-link">+49 (0)176 - 84228539</a>
+  <p class="contact-text">Anfrage per WhatsApp</p>
+  <a href="https://wa.me/4917684228539" class="contact-link">+49 (0)176 - 84228539</a>
+  <p class="contact-text">Anfrage per E-Mail senden</p>
+  <a href="mailto:info@foxibox.de" class="email-link">info@foxibox.de</a>
 </body>
 </html>
